@@ -13,7 +13,7 @@ if __name__ == '__main__':
     sp = Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                         client_secret=client_secret,
                                         redirect_uri=redirect_uri,
-                                        scope='playlist-modify-public playlist-read-private playlist-modify-private'))
+                                        scope='playlist-modify-public playlist-read-private playlist-modify-private playlist-read-public'))
     # id of the playlist from which you want to copy all songs
     from_playlist_id = 'YOUR_PLAYLIST_ID'
     # id of the playlist to which you want to copy all songs
